@@ -110,8 +110,8 @@ section {
     position: relative;
     left: 50%;
     right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    /* margin-left: -50vw;
+    margin-right: -50vw; */
     padding: 40px 10%; /* Adds breathing room inside the full-width strip */
   }
   
@@ -128,7 +128,7 @@ section {
     gap: 12px;           /* Adds space between icon and text */
     width: 100%;         /* Ensures they fill the column neatly */
     }
-    
+
 .construction-grid {
     display: grid;
     /* Forces exactly 2 columns of equal width */
