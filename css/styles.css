@@ -108,6 +108,11 @@ section {
     background-color: #A89A82;
     width: 100vw;
     position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 40px 10%; /* Adds breathing room inside the full-width strip */
   }
   
   .service-column {
