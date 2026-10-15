@@ -104,22 +104,23 @@ section {
 
 .services-container {
     display: flex;
-    gap: 40px; /* Adjust the space between the two columns */
+    gap: 40px;
     background-color: #A89A82;
-    width: 100%;
+    padding: 40px 10%;
+    
+    /* Break out to full viewport width safely */
+    width: 100vw;
     position: relative;
     left: 50%;
     right: 50%;
-    /* margin-left: -50vw;
-    margin-right: -50vw; */
-    padding: 40px 10%; /* Adds breathing room inside the full-width strip */
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-sizing: border-box;
   }
   
-  .service-column {
-    flex: 1;
-    display: flex;
-    /* flex-direction: column; Forces cards to stack on top of each other */
-    gap: 15px;
+  /* Add to your global CSS to prevent horizontal scrollbar overflow */
+  html, body {
+    overflow-x: hidden;
   }
 
   .land-service-card, .construction-service-card {
