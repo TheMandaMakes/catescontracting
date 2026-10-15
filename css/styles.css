@@ -259,6 +259,10 @@ footer nav a {
     color: white;
 }
 
+.google-map {
+    flex: 1;
+}
+
 /* This rule affects only images placed inside the footer. */
 .footer-logo img {
     /* The image may shrink, but it cannot grow wider than 120px. */
