@@ -98,6 +98,9 @@ section {
     margin: 0 auto;
 }
 
+.welcome {
+    
+}
 .construction-grid {
     display: grid;
     /* Forces exactly 2 columns of equal width */
