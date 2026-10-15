@@ -147,6 +147,13 @@ section {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
 
+.service-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
 .kent-grid {
     display: grid;
     /* Forces exactly 2 columns of equal width */
