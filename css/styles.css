@@ -118,7 +118,7 @@ section {
   .service-column {
     flex: 1;
     display: flex;
-    flex-direction: column; /* Forces cards to stack on top of each other */
+    /* flex-direction: column; Forces cards to stack on top of each other */
     gap: 15px;
   }
 
@@ -128,6 +128,7 @@ section {
     gap: 12px;           /* Adds space between icon and text */
     width: 100%;         /* Ensures they fill the column neatly */
     }
+    
 .construction-grid {
     display: grid;
     /* Forces exactly 2 columns of equal width */
