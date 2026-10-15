@@ -106,7 +106,7 @@ section {
     display: flex;
     gap: 40px; /* Adjust the space between the two columns */
     background-color: #A89A82;
-    width: 100vw;
+    width: 100%;
     position: relative;
     left: 50%;
     right: 50%;
@@ -264,8 +264,10 @@ footer nav a {
     color: white;
 }
 
-.google-map {
+.google-column {
     flex: 1;
+    display:flex;
+    flex-direction: column;
 }
 
 /* This rule affects only images placed inside the footer. */
