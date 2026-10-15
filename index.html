@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="";>
-    
-        <title>Cates Contracting, LLC | Home</title>
-            
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-        <script src="script.js" defer></script>
-    </head>
+<head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <title>Cates Contracting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
+
+    <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KC4MV3GP');</script>
+    <!-- End Google Tag Manager -->
+</head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC4MV3GP"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
     <header>
         <div id="site-header"></div>
     </header>
@@ -23,25 +36,33 @@
             <p>[Welcome Text will go here]</p>
         </section>
 
-        <section class="Services">
+        <section class="service-section">
             <h2>Services</h2>
-            <div class="cards-container">
-                <div class="service-cards">
-                <h3>Construction:</h3>
-                    <p>[Construction description].</p>
-
-                <h3>Landscaping:</h3>
-                    <p>[Landscaping description]</p>
+                <div class="construction">
+                    <h3 class="services-construction">Construction:</h3>
+                        <div class="construction-grid">
+                            <div class="const-service-card">Roofing</div>
+                            <div class="const-service-card">Siding</div>
+                            <div class="const-service-card">Windows & Doors</div>
+                            <div class="const-service-card">Remodeling & Additions</div>
+                            <!-- <div class="const-service-card">Ground Maintenance</div> -->
+                        </div>
                 </div>
-            </div>
+                <div class="landscaping">
+                    <h3 class="services-landscaping">Landscaping:</h3>
+                        <div class="landscaping-grid">
+                            <div class="land-service-card">Mowing</div>
+                            <div class="land-service-card">Mulching</div>
+                            <div class="land-service-card">Tree Trimming</div>
+                            <div class="land-service-card">Snow Removal</div>
+                </div>
         </section>
 
         <section class="Service Area">
             <h2>Service Areas</h2>
-            <div class="cards-container">
-
-                <div class="kent-cards"></div>
-                    <h3>Kent County</h3>
+            <div class="kent-county">
+                <h3 class="kent-county">Kent County</h3>
+                <div class="kent-grid">
                     <ul>
                         <li>Milford</li>
                         <li>Harrington</li>
@@ -50,9 +71,10 @@
                         <li>Bowers Beach</li>       
                     </ul>
                 </div>
-
-                <div class="sussex-cards">
-                    <h3>Sussex County</h3>
+            </div>
+            <div class="sussex-county">
+                <h3 class="sussex-county">Sussex County</h3>
+                <div class="sussex-grid">
                     <ul>
                         <li>Lincoln</li>
                         <li>Milton</li>
@@ -63,14 +85,13 @@
                         <li>Millsboro</li>
                         <li>Selbyville</li>
                         <li>Greenwood</li>
-                        <li>Bridgeville></li>
+                        <li>Bridgeville</li>
                         <li>Seaford</li>
                         <li>Laurel</li>
                         <li>Delmar</li>
                     </ul>
-                </div>
+                </div>  
             </div>
-    
         </section>
     </main>
 
