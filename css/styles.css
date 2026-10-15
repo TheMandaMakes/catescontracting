@@ -162,6 +162,24 @@ section {
     /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
 }
 
+.sussex-grid {
+    display: grid;
+    /* Forces exactly 2 columns of equal width */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.susex-grid {
+    background-color: #f8fafc; /* Matches your light card aesthetic */
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
+}
+
 
 
 /* FOOTER = the bottom of the page */
