@@ -105,6 +105,7 @@ section {
 .services-container {
     display: flex;
     gap: 40px; /* Adjust the space between the two columns */
+    background-color: #A89A82;
   }
   
   .service-column {
