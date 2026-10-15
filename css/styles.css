@@ -98,6 +98,37 @@ section {
     margin: 0 auto;
 }
 
+/* Container that holds the cards side-by-side */
+.cards-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Individual Card Styling */
+.card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 24px;
+    flex: 1;
+    min-width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Clean up list styling inside the service area cards */
+.card ul {
+    margin: 12px 0 0 0;
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 6px;
+}
+
+
+
 
 /* FOOTER = the bottom of the page */
 footer {
