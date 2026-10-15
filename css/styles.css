@@ -85,6 +85,21 @@ header nav a {
     padding: 16px;
 } */
 
+/* Style the contact navigation item as a button */
+.contact-btn a {
+    background-color: #0056b3; /* Choose your brand color */
+    color: #ffffff !important;
+    padding: 10px 18px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+.contact-btn a:hover {
+    background-color: #004085;
+    text-decoration: none;
+}
+
 /* SECTION = each main group of content on the home page */
 section {
     /* Add space inside each section. */
