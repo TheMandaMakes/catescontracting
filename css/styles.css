@@ -101,6 +101,16 @@ section {
 .welcome {
 
 }
+
+.services-container {
+    display: flex;
+    gap: 40px; /* Adjust the space between the two columns */
+  }
+  
+  .service-column {
+    flex: 1; /* Ensures both columns take up equal width */
+  }
+
 .construction-grid {
     display: grid;
     /* Forces exactly 2 columns of equal width */
