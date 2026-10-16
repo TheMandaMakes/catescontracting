@@ -102,72 +102,36 @@ section {
 
 }
 
-.services-container {
-    display: flex;
-    gap: 40px;
-    background-color: #A89A82;
-    padding: 40px 10%;
-    
-    /* Break out to full viewport width safely */
+/* Full-width background wrapper */
+.services-section {
     width: 100vw;
     position: relative;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+    background-color: #A89A82;
     box-sizing: border-box;
-  }
-  
-  /* Add to your global CSS to prevent horizontal scrollbar overflow */
-  html, body {
-    overflow-x: hidden;
-  }
-
-  .services-section {
-    width: 100%;
-    /* Add your full-width background color or image here */
 }
 
+/* Prevent horizontal scrollbar overflow */
+html, body {
+    overflow-x: hidden;
+}
+
+/* Centers the inner container and spaces out the service columns */
 .services-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: stretch;
+    gap: 40px;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 40px 20px;
 }
 
-  .land-service-card, .construction-service-card {
-    display: flex;
-    align-items: center; /* Centers the icon and text vertically */
-    gap: 12px;           /* Adds space between icon and text */
-    width: 100%;         /* Ensures they fill the column neatly */
-    }
-
-.construction-grid {
-    display: grid;
-    /* Forces exactly 2 columns of equal width */
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    margin-top: 1rem;
-}
-
-.const-service-card {
-    background-color: #f8fafc; /* Matches your light card aesthetic */
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    padding: 2rem 1.5rem;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
-}
-
-.const-service-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
-}
-
+.construction-grid,
 .landscaping-grid {
     display: grid;
     /* Forces exactly 2 columns of equal width */
@@ -176,6 +140,7 @@ section {
     margin-top: 1rem;
 }
 
+.const-service-card,
 .land-service-card {
     background-color: #f8fafc; /* Matches your light card aesthetic */
     border: 1px solid #e2e8f0;
@@ -186,6 +151,7 @@ section {
     /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
 }
 
+.const-service-card:hover,
 .land-service-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
@@ -196,22 +162,17 @@ section {
     height: 60px;
     vertical-align: middle;
     margin-right: 10px;
-  }
-
-.kent-grid {
-    display: grid;
-    /* Forces exactly 2 columns of equal width */
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    margin-top: 1rem;
 }
 
 .kent-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
     background-color: #f8fafc; /* Matches your light card aesthetic */
     border: 1px solid #e2e8f0;
     border-radius: 8px;
     padding: 2rem 1.5rem;
-    display: flex;
     justify-content: center;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -220,13 +181,9 @@ section {
 
 .sussex-grid {
     display: grid;
-    /* Forces exactly 2 columns of equal width */
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     margin-top: 1rem;
-}
-
-.sussex-grid {
     background-color: #f8fafc; /* Matches your light card aesthetic */
     border: 1px solid #e2e8f0;
     border-radius: 8px;
