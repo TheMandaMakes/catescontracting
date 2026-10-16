@@ -123,15 +123,19 @@ section {
     overflow-x: hidden;
   }
 
-  .services-container {
-    display: flex;
-    gap: 30px;
+  .services-section {
     width: 100%;
+    /* Add your full-width background color or image here */
 }
 
-.service-column {
-    flex: 1;
-    min-width: 0; /* Prevents columns from overflowing if content is wide */
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box;
+    padding: 0 20px;
 }
 
   .land-service-card, .construction-service-card {
