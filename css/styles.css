@@ -119,6 +119,18 @@ html, body {
     overflow-x: hidden;
 }
 
+/* Full-width background wrapper */
+.services-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #A89A82;
+    box-sizing: border-box;
+}
+
 /* Centers the inner container and spaces out the service columns */
 .services-container {
     max-width: 1200px;
