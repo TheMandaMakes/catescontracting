@@ -123,6 +123,17 @@ section {
     overflow-x: hidden;
   }
 
+  .services-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.service-column {
+    flex: 1;
+    min-width: 0; /* Prevents columns from overflowing if content is wide */
+}
+
   .land-service-card, .construction-service-card {
     display: flex;
     align-items: center; /* Centers the icon and text vertically */
