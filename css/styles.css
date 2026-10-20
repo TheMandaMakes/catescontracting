@@ -139,7 +139,7 @@ html, body {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    background-color: #A89A82;
+    background-color: #aa8d5c;
     box-sizing: border-box;
 }
 
@@ -180,7 +180,7 @@ html, body {
     height: 140px;          /* Explicit fixed height */
     width: 100%;            /* Fills grid column evenly */
     
-    background-color: #a0816d; /* Card background */
+    background-color: #b8b6b4; /* Card background */
     border-radius: 8px;
     padding: 1rem;
     box-sizing: border-box;
