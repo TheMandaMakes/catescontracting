@@ -119,19 +119,13 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Full-width background wrapper */
-.services-section {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    background-color: #A89A82;
-    box-sizing: border-box;
+/* Ensure the body allows edge-to-edge full bleed without horizontal scrollbars */
+body {
+    overflow-x: hidden;
+    margin: 0;
 }
 
-/* Centers the inner container and spaces out the service columns */
+/* Full-bleed section spanning 100% of the screen width */
 .services-section {
     width: 100vw;
     position: relative;
@@ -141,27 +135,27 @@ html, body {
     margin-right: -50vw;
     background-color: #aa8d5c;
     box-sizing: border-box;
+    padding: 40px 0;
 }
 
+/* Centers inner content container */
 .services-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 60px 20px;
+    padding: 0 20px;
     box-sizing: border-box;
 }
 
-
-
-/* Ensure both columns take up identical width */
+/* Force equal 50/50 split between Construction and Landscaping columns */
 .service-column {
-    flex: 1;
+    flex: 1 1 0;
     min-width: 0;
 }
 
-/* Ensure both grids share identical dimensions */
+/* Identical 2-column grid layout for both categories */
 .construction-grid,
 .landscaping-grid {
     display: grid;
@@ -169,18 +163,19 @@ html, body {
     gap: 1.25rem;
 }
 
-/* Target both card types together */
+/* Equal sizing across all 8 cards */
 .const-service-card,
-.land-service-card {
+.land-service-card,
+.service-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     
-    height: 140px;          /* Explicit fixed height */
-    width: 100%;            /* Fills grid column evenly */
+    height: 140px;
+    width: 100%;
     
-    background-color: #b8b6b4; /* Card background */
+    background-color: #b8b6b4;
     border-radius: 8px;
     padding: 1rem;
     box-sizing: border-box;
@@ -190,7 +185,8 @@ html, body {
 }
 
 .const-service-card:hover,
-.land-service-card:hover {
+.land-service-card:hover,
+.service-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
@@ -198,6 +194,7 @@ html, body {
 /* Uniform icon sizing for ALL card icons */
 .const-service-card img,
 .land-service-card img,
+.service-card img,
 .construction-icon,
 .service-icon {
     width: 40px !important;
