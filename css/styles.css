@@ -91,7 +91,7 @@ header nav a {
 } */
 
 /* SECTION = each main group of content on the home page */
-section {
+/* section {
     /* Add space inside each section. */
     padding: 16px;
 
@@ -101,7 +101,7 @@ section {
 
     /* 0 = no top/bottom margin; auto = center left/right. */
     margin: 0 auto;
-}
+} */
 
 .welcome {
 
