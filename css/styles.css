@@ -20,8 +20,14 @@ body {
 main {
     flex: 1;
     width: 90%;
+    /* max-width: 900px; */
+    /* margin: 0 auto; */
+}
+
+section:not(.services-section) {
+    width: 90%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0auto;
 }
 
 header {
