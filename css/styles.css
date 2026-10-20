@@ -145,7 +145,7 @@ body {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    background-color: #aa8d5c;
+    background-color: #b4a995;
     box-sizing: border-box;
     padding: 40px 0;
 }
@@ -187,7 +187,7 @@ body {
     height: 140px;
     width: 100%;
     
-    background-color: #b8b6b4;
+    background-color: #dddddd;
     border-radius: 8px;
     padding: 1rem;
     box-sizing: border-box;
