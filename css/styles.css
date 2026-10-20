@@ -107,11 +107,17 @@ header nav a {
 
 }
 
-.services-section h2 {
-    max-width: 1200px;
-    margin: 0 auto 20px auto;
-    padding: 0 20px;
-    color: #ffffff;
+/* SECTION = each main group of content on the home page (excluding full-bleed sections) */
+section:not(.services-section) {
+    /* Add space inside each section. */
+    padding: 16px;
+
+    /* Let the section shrink on small screens, but stop at 1000px. */
+    width: 90%;
+    max-width: 1000px;
+
+    /* 0 = no top/bottom margin; auto = center left/right. */
+    margin: 0 auto;
 }
 
 /* Prevent horizontal scrollbar overflow */
@@ -123,6 +129,13 @@ html, body {
 body {
     overflow-x: hidden;
     margin: 0;
+}
+
+.services-section h2 {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+    color: #ffffff;
 }
 
 .services-section {
