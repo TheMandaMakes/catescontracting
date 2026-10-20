@@ -146,10 +146,27 @@ html, body {
 .construction-grid,
 .landscaping-grid {
     display: grid;
-    /* Forces exactly 2 columns of equal width */
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px; /* Adjust this height to fit your design */
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-card img,
+.construction-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
 }
 
 .const-service-card,
