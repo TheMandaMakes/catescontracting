@@ -38,6 +38,17 @@ header {
     font-weight: 600;
     color: #dddcda;
 }
+
+#site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
 /* NAV = the menu that contains all the navigation links */
 header nav {
     /* Flex places the menu items next to one another. */
@@ -48,31 +59,34 @@ header nav {
     gap: 16px;
     /* Allow menu items to move to a new line on a narrow screen. */
     flex-wrap: wrap;
-    position: relative;
-    min-height: 100px;
+    /* position: relative;
+    min-height: 100px; */
     /* Give the navigation a light gray background. */
     background: #F5F3EF;
     /* Add 16 pixels of space inside all four sides of the nav. */
-    padding: 16px 132px 16px 220px;
-    font-size: 20px;
+    padding: 0;
+    /* font-size: 20px;
     font-weight: 600;
-    color: #ffffff;
-    margin-top: 20px;
+    color: #ffffff; */
+    margin-top: 0;
 }
+
+
+
 .logo {
-    margin-left: auto;
-    position: absolute;
-    left: 100px;
-    top: 50%;
-    transform:  translateY(-50%);;
-
+    margin: 0;
+    position: static;
+    /* left: 100px;
+    top: 50%; */
+    transform: none;
 }
+
 .logo img {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
-    display:block
+    display: block;
 }
-
 
 
 /* NAV A = only the links that are inside the nav */
@@ -84,24 +98,6 @@ header nav a {
     color: #4b3c3c;
     padding: 0 6px;
 }
-
-/* Apply the same inside spacing to both the header and footer. */
-/* header, footer {
-    padding: 16px;
-} */
-
-/* SECTION = each main group of content on the home page */
-/* section {
-    /* Add space inside each section. */
-    padding: 16px;
-
-    /* Let the section shrink on small screens, but stop at 900px. */
-    width: 90%;
-    max-width: 1000px;
-
-    /* 0 = no top/bottom margin; auto = center left/right. */
-    margin: 0 auto;
-} */
 
 .welcome {
 
