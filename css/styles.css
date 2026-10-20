@@ -19,15 +19,14 @@ body {
 
 main {
     flex: 1;
-    width: 90%;
-    /* max-width: 900px; */
-    /* margin: 0 auto; */
+    width: 100%;
 }
 
 section:not(.services-section) {
+    padding: 16px;
     width: 90%;
     max-width: 900px;
-    margin: 0auto;
+    margin: 0 auto;
 }
 
 header {
@@ -108,16 +107,11 @@ section {
 
 }
 
-/* Full-width background wrapper */
-.services-section {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    background-color: #A89A82;
-    box-sizing: border-box;
+.services-section h2 {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+    color: #ffffff;
 }
 
 /* Prevent horizontal scrollbar overflow */
@@ -131,7 +125,6 @@ body {
     margin: 0;
 }
 
-/* Full-bleed section spanning 100% of the screen width */
 .services-section {
     width: 100vw;
     position: relative;
