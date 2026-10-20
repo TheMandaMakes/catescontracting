@@ -143,41 +143,38 @@ html, body {
     padding: 40px 20px;
 }
 
+/* Ensure both columns take up identical width */
+.service-column {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Ensure both grids share identical dimensions */
 .construction-grid,
 .landscaping-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 1.25rem;
 }
 
-.service-card {
+/* Target both card types together */
+.const-service-card,
+.land-service-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 130px; /* Adjust this height to fit your design */
+    
+    height: 140px;          /* Explicit fixed height */
+    width: 100%;            /* Fills grid column evenly */
+    
+    background-color: #ffffff; /* Card background */
+    border-radius: 8px;
     padding: 1rem;
     box-sizing: border-box;
     text-align: center;
-}
-
-.service-card img,
-.construction-icon {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
-    margin-bottom: 0.5rem;
-}
-
-.const-service-card,
-.land-service-card {
-    background-color: #f8fafc; /* Matches your light card aesthetic */
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    padding: 2rem 1.5rem;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
+    
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .const-service-card:hover,
@@ -186,11 +183,15 @@ html, body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
 
+/* Uniform icon sizing for ALL card icons */
+.const-service-card img,
+.land-service-card img,
+.construction-icon,
 .service-icon {
-    width: 60px;
-    height: 60px;
-    vertical-align: middle;
-    margin-right: 10px;
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: contain;
+    margin: 0 0 0.5rem 0 !important;
 }
 
 .kent-grid {
