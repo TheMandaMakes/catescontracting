@@ -24,8 +24,8 @@ main {
 
 section:not(.services-section) {
     padding: 16px;
-    width: 90%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -97,7 +97,7 @@ section {
 
     /* Let the section shrink on small screens, but stop at 900px. */
     width: 90%;
-    max-width: 900px;
+    max-width: 1000px;
 
     /* 0 = no top/bottom margin; auto = center left/right. */
     margin: 0 auto;
