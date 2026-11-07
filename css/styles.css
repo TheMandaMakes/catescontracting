@@ -258,7 +258,31 @@ h3 {
     margin: 0;
 }
 
+/* Basic row helper */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between cards */
+}
 
+/* Custom column sizing rules */
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-6 {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+}
+
+/* Media query for medium screens and wider (e.g., tablets/desktops) */
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+}
 
 /* FOOTER = the bottom of the page */
 footer {
