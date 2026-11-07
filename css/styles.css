@@ -229,6 +229,7 @@ h3 {
     border-radius: 8px;
     padding: 24px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    justify-content: center;
 }
 
 .kent-grid {
@@ -254,7 +255,7 @@ section.Service\ Area .row {
     gap: 20px;
 }
 
-/* Sussex inner two-column layout */
+/* Sussex inner three-column layout */
 .sussex-county .row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
