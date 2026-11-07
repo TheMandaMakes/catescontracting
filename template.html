@@ -3,7 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bootstrap Learning Sandbox</title>
+
+<!-- Meta Information -->
+    <title>This is my Page Title | Brand / Business Name</title>
+    <!-- Meta Description (The snippet shown under your link in Google results) -->
+    <meta name="description" content="Here is my meta descrtiption.">
+    <!-- Canonical Link (Prevents duplicate content issues) -->
+    <link rel="canonical" href="https://example.com/your-page-url">
+    <!-- Search Engine Robots Instructions -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Tags (Controls Facebook, LinkedIn, iMessage link previews) -->
+    <meta property="og:title" content="Page Title - Main Keyword | Brand Name">
+    <meta property="og:description" content="A concise summary of your page content.">
+    <meta property="og:image" content="https://example.com/images/social-share-image.jpg">
+    <meta property="og:url" content="https://example.com/your-page-url">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Your Brand Name">
+
+    <!-- 7. Twitter Card Tags (Controls X / Twitter previews) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Page Title - Main Keyword | Brand Name">
+    <meta name="twitter:description" content="A concise summary of your page content.">
+    <meta name="twitter:image" content="https://example.com/images/social-share-image.jpg">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -14,6 +37,16 @@
     <!-- JavaScript -->
     <script src="script.js" defer></script>
 
+    <!-- JSON-LD Structured Data Block -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Your Brand Name",
+        "url": "https://example.com",
+        "logo": "https://example.com/logo.png"
+    }
+    </script>
     
     <!-- Bootstrap 5.3 CSS Link -->
     <link href="https://jsdelivr.net" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
