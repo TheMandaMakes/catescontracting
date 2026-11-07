@@ -222,13 +222,6 @@ h3 {
     margin-right: 10px;
     color: black;
   }
-=======
-    width: 40px !important;
-    height: 40px !important;
-    object-fit: contain;
-    margin: 0 0 0.5rem 0 !important;
-}
->>>>>>> dc644500d1c9c3e3e25f2ad0a33091954b3f1879
 
 .kent-grid {
     display: grid;
