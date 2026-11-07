@@ -222,33 +222,23 @@ h3 {
     color: black;
   }
 
-.kent-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
+  .sussex-grid {
     margin-top: 16px;
-    background-color: #f8fafc; /* Matches your light card aesthetic */
+    background-color: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
     padding: 24px 20px;
-    justify-content: center;
-    text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
 }
 
-.sussex-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+.kent-grid {
     margin-top: 16px;
-    background-color: #f8fafc; /* Matches your light card aesthetic */
+    background-color: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
     padding: 24px 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
 }
 
 .no-bullets {
